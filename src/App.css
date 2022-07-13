@@ -1,3 +1,11 @@
+#root {
+  font-family: Commissioner;
+}
+
+body {
+  background-color: #f8f8ff;
+}
+
 .header-image {
   background-image: url('../images/image-hero-desktop.jpg');
   min-height: 400px;
@@ -35,7 +43,7 @@ li {
 }
 
 .pageinfo {
-  background-color: green;
+  background-color: white;
   width: 730px;
   height: 297px;
   align-items: center;
@@ -44,4 +52,77 @@ li {
   justify-content: center;
   margin: auto;
   text-align: center;
+}
+
+.pageinfo-buttons {
+  margin-top: 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+.funding-info {
+  background-color: white;
+  width: 730px;
+  height: 212px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.funding-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.funding-choice {
+  background-color: white;
+  width: 730px;
+  height: 1200px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-project {
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+.funding-containers {
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1%;
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+.amount-left {
+  font-size: 30px;
+}
+
+.amount-container {
+  margin: 2rem 2rem 1rem 2rem;
+  align-items: center;
+}
+
+.select-reward {
+  float: right;
+}
+
+.funding-paragraph {
+  margin: 0 2rem 1rem 2rem;
+}
+
+.funding-header {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 2rem 1rem 2rem;
+  justify-content: space-between;
 }
