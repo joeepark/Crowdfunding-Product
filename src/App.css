@@ -20,18 +20,19 @@ body {
   position: absolute;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   top: 50px;
   margin: auto;
   color: #FFFFFF;
+  justify-content: space-between;
 }
 
-ul {
+.navbar-details {
   overflow: hidden;
   width: auto;
   margin: 0;
   padding: 0;
+  float: right;
 }
 
 li {
@@ -80,10 +81,16 @@ li {
   justify-content: space-around;
 }
 
+.divider {
+  border-left: 2px solid grey;
+  height: 4rem;
+
+}
+
 .funding-choice {
   background-color: white;
   width: 730px;
-  height: 1200px;
+  height: 100%;
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 5rem;
